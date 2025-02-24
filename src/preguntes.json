@@ -1,0 +1,162 @@
+[
+  {
+    "enunciat": "Qui va pintar la Mona Lisa?",
+    "opcions": ["Van Gogh", "Leonardo da Vinci", "Picasso", "Dalí"],
+    "respostaCorrecta": 1
+  },
+  {
+    "enunciat": "Quin any va començar la Segona Guerra Mundial?",
+    "opcions": ["1914", "1939", "1945", "1789"],
+    "respostaCorrecta": 1
+  },
+  {
+    "enunciat": "Quin és l'element químic més abundant a l'univers?",
+    "opcions": ["Oxigen", "Hidrogen", "Carboni", "Ferro"],
+    "respostaCorrecta": 1
+  },
+  {
+    "enunciat": "Quin és el personatge principal de la saga de videojocs The Legend of Zelda?",
+    "opcions": ["Zelda", "Ganondorf", "Link", "Epona"],
+    "respostaCorrecta": 2
+  },
+  {
+    "enunciat": "Qui va dirigir la pel·lícula Titanic (1997)?",
+    "opcions": ["Steven Spielberg", "James Cameron", "Christopher Nolan", "Martin Scorsese"],
+    "respostaCorrecta": 1
+  },
+  {
+    "enunciat": "Quin país és famós per inventar la pizza?",
+    "opcions": ["Espanya", "Estats Units", "França", "Itàlia"],
+    "respostaCorrecta": 3
+  },
+  {
+    "enunciat": "Quin emperador romà va construir el mur que separava Britània dels bàrbars?",
+    "opcions": ["Cèsar", "Neró", "Adrià", "August"],
+    "respostaCorrecta": 2
+  },
+  {
+    "enunciat": "Quin és l’animal terrestre més ràpid del món?",
+    "opcions": ["Tigre", "Lleopard", "Guepard", "Cavall"],
+    "respostaCorrecta": 2
+  },
+  {
+    "enunciat": "Quina és la capital d’Austràlia?",
+    "opcions": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+    "respostaCorrecta": 2
+  },
+  {
+    "enunciat": "Quin és el riu més llarg del món?",
+    "opcions": ["Amazones", "Nil", "Mississipí", "Danubi"],
+    "respostaCorrecta": 1
+  },
+  {
+    "enunciat": "Quin és el metall més utilitzat en la fabricació de circuits electrònics?",
+    "opcions": ["Or", "Plata", "Silici", "Coure"],
+    "respostaCorrecta": 2
+  },
+  {
+    "enunciat": "Quina és la muntanya més alta del món?",
+    "opcions": ["Everest", "K2", "Kilimanjaro", "Annapurna"],
+    "respostaCorrecta": 0
+  },
+  {
+    "enunciat": "Quina ciutat és coneguda com la Gran Poma?",
+    "opcions": ["Los Angeles", "Londres", "Nova York", "Chicago"],
+    "respostaCorrecta": 2
+  },
+  {
+    "enunciat": "Qui va escriure Hamlet?",
+    "opcions": ["Charles Dickens", "William Shakespeare", "Jane Austen", "Edgar Allan Poe"],
+    "respostaCorrecta": 1
+  },
+  {
+    "enunciat": "Quina és la capital de Japó?",
+    "opcions": ["Seül", "Tòquio", "Bangkok", "Pekín"],
+    "respostaCorrecta": 1
+  },
+  {
+    "enunciat": "Quina és la fórmula química de l’aigua?",
+    "opcions": ["H2O", "CO2", "O2", "NaCl"],
+    "respostaCorrecta": 0
+  },
+  {
+    "enunciat": "Qui va ser el primer home a trepitjar la Lluna?",
+    "opcions": ["Buzz Aldrin", "Neil Armstrong", "Yuri Gagarin", "Michael Collins"],
+    "respostaCorrecta": 1
+  },
+  {
+    "enunciat": "Quin és el nom del protagonista de la saga Halo?",
+    "opcions": ["Master Chief", "Cortana", "Arbiter", "Sergeant Johnson"],
+    "respostaCorrecta": 0
+  },
+  {
+    "enunciat": "En quin any es va llançar el primer videojoc de la saga The Legend of Zelda?",
+    "opcions": ["1983", "1986", "1990", "1995"],
+    "respostaCorrecta": 1
+  },
+  {
+    "enunciat": "Quin és el nom del regne on es desenvolupa la majoria dels jocs de Zelda?",
+    "opcions": ["Hyrule", "Mushroom Kingdom", "Tamriel", "Kanto"],
+    "respostaCorrecta": 0
+  },
+  {
+    "enunciat": "Quina empresa va crear el joc Minecraft?",
+    "opcions": ["Mojang", "Nintendo", "Ubisoft", "Valve"],
+    "respostaCorrecta": 0
+  },
+  {
+    "enunciat": "Com es diu el personatge principal de la saga de videojocs Final Fantasy VII?",
+    "opcions": ["Cloud Strife", "Sephiroth", "Squall Leonhart", "Tidus"],
+    "respostaCorrecta": 0
+  },
+  {
+    "enunciat": "Quin és el nom del planeta on es desenvolupa gran part de la saga Mass Effect?",
+    "opcions": ["Terra", "Citadel", "Eden Prime", "Tuchanka"],
+    "respostaCorrecta": 2
+  },
+  {
+    "enunciat": "Quin és el joc més venut de tots els temps?",
+    "opcions": ["Grand Theft Auto V", "Minecraft", "Tetris", "Super Mario Bros."],
+    "respostaCorrecta": 1
+  },
+  {
+    "enunciat": "Quin personatge de Street Fighter crida 'Hadouken' quan llança el seu atac especial?",
+    "opcions": ["Ryu", "Ken", "Chun-Li", "Guile"],
+    "respostaCorrecta": 0
+  },
+  {
+    "enunciat": "Quina empresa va crear la sèrie de videojocs The Witcher?",
+    "opcions": ["Bethesda", "CD Projekt Red", "BioWare", "Rockstar Games"],
+    "respostaCorrecta": 1
+  },
+  {
+    "enunciat": "Com es diu el protagonista de la saga de videojocs God of War?",
+    "opcions": ["Kratos", "Ares", "Zeus", "Hercules"],
+    "respostaCorrecta": 0
+  },
+  {
+    "enunciat": "Quin és el nom del protagonista de la saga de videojocs Assassin's Creed?",
+    "opcions": ["Ezio Auditore", "Altaïr Ibn-La'Ahad", "Connor Kenway", "Desmond Miles"],
+    "respostaCorrecta": 3
+  },
+  {
+    "enunciat": "Quin és el nom del protagonista de la saga de videojocs Uncharted?",
+    "opcions": ["Nathan Drake", "Sam Drake", "Elena Fisher", "Victor Sullivan"],
+    "respostaCorrecta": 0
+  },
+  {
+    "enunciat": "Quin és el nom del protagonista de la saga de videojocs Metal Gear Solid?",
+    "opcions": ["Solid Snake", "Liquid Snake", "Big Boss", "Raiden"],
+    "respostaCorrecta": 0
+  },
+  {
+    "enunciat": "Quin és el nom del protagonista de la saga de videojocs Half-Life?",
+    "opcions": ["Gordon Freeman", "Alyx Vance", "Barney Calhoun", "Eli Vance"],
+    "respostaCorrecta": 0
+  },
+  {
+    "enunciat": "Quin és el nom del protagonista de la saga de videojocs Portal?",
+    "opcions": ["Chell", "GLaDOS", "Wheatley", "Cave Johnson"],
+    "respostaCorrecta": 0
+  }
+]
