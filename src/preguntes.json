@@ -2,161 +2,1213 @@
   {
     "enunciat": "Qui va pintar la Mona Lisa?",
     "opcions": ["Van Gogh", "Leonardo da Vinci", "Picasso", "Dalí"],
-    "respostaCorrecta": 1
+    "respostaCorrecta": "Leonardo da Vinci",
+    "categoria": "Art"
+  },
+  {
+    "enunciat": "Quin moviment artístic és associat amb Salvador Dalí?",
+    "opcions": ["Impresionisme", "Surrealisme", "Cubisme", "Expressionisme"],
+    "respostaCorrecta": "Surrealisme",
+    "categoria": "Art"
+  },
+  {
+    "enunciat": "Quina obra famosa de Michelangelo es troba a la Capella Sixtina?",
+    "opcions": ["La Creació d'Adam", "La Nit Estrellada", "Els Girasols", "La Persistència de la Memòria"],
+    "respostaCorrecta": "La Creació d'Adam",
+    "categoria": "Art"
+  },
+  {
+    "enunciat": "Quin artista és conegut per tallar-se una orella?",
+    "opcions": ["Pablo Picasso", "Vincent van Gogh", "Claude Monet", "Andy Warhol"],
+    "respostaCorrecta": "Vincent van Gogh",
+    "categoria": "Art"
+  },
+  {
+    "enunciat": "Quina tècnica va popularitzar Jackson Pollock?",
+    "opcions": ["Puntillisme", "Dripping", "Collage", "Fresco"],
+    "respostaCorrecta": "Dripping",
+    "categoria": "Art"
+  },
+  {
+    "enunciat": "Quina és l'obra més famosa de Edvard Munch?",
+    "opcions": ["El Crit", "La Gioconda", "Les Senyoretes d'Avinyó", "Nen de Mar"],
+    "respostaCorrecta": "El Crit",
+    "categoria": "Art"
+  },
+  {
+    "enunciat": "Qui va pintar 'La nit estrellada'?",
+    "opcions": ["Vincent van Gogh", "Pablo Picasso", "Claude Monet", "Salvador Dalí"],
+    "respostaCorrecta": "Vincent van Gogh",
+    "categoria": "Art"
+  },
+  {
+    "enunciat": "Quin estil artístic va fundar Pablo Picasso juntament amb Georges Braque?",
+    "opcions": ["Surrealisme", "Cubisme", "Impresionisme", "Expressionisme"],
+    "respostaCorrecta": "Cubisme",
+    "categoria": "Art"
+  },
+  {
+    "enunciat": "Quina és l'escultura més famosa de Michelangelo?",
+    "opcions": ["El David", "La Pietà", "El Moisès", "El Pensador"],
+    "respostaCorrecta": "El David",
+    "categoria": "Art"
+  },
+  {
+    "enunciat": "Quin artista va pintar 'El naixement de Venus'?",
+    "opcions": ["Sandro Botticelli", "Leonardo da Vinci", "Rafael", "Caravaggio"],
+    "respostaCorrecta": "Sandro Botticelli",
+    "categoria": "Art"
+  },
+  {
+    "enunciat": "Quin moviment artístic és associat amb Claude Monet?",
+    "opcions": ["Impresionisme", "Surrealisme", "Cubisme", "Expressionisme"],
+    "respostaCorrecta": "Impresionisme",
+    "categoria": "Art"
+  },
+  {
+    "enunciat": "Quina obra de Leonardo da Vinci es troba al Louvre?",
+    "opcions": ["La Mona Lisa", "L'últim sopar", "L'home de Vitruvi", "La Verge de les Roques"],
+    "respostaCorrecta": "La Mona Lisa",
+    "categoria": "Art"
+  },
+  {
+    "enunciat": "Quin artista va crear 'Les senyoretes d'Avinyó'?",
+    "opcions": ["Pablo Picasso", "Vincent van Gogh", "Henri Matisse", "Paul Cézanne"],
+    "respostaCorrecta": "Pablo Picasso",
+    "categoria": "Art"
+  },
+  {
+    "enunciat": "Quina tècnica va utilitzar Leonardo da Vinci per pintar 'L'últim sopar'?",
+    "opcions": ["Oli sobre tela", "Fresco", "Temple", "Aquarel·la"],
+    "respostaCorrecta": "Fresco",
+    "categoria": "Art"
+  },
+  {
+    "enunciat": "Quin artista va pintar 'El petó'?",
+    "opcions": ["Gustav Klimt", "Edvard Munch", "Pierre-Auguste Renoir", "Paul Gauguin"],
+    "respostaCorrecta": "Gustav Klimt",
+    "categoria": "Art"
+  },
+  {
+    "enunciat": "Quina és l'obra més famosa de Rembrandt?",
+    "opcions": ["La ronda de nit", "El retorn del fill pròdig", "La lliçó d'anatomia del Dr. Tulp", "Dànae"],
+    "respostaCorrecta": "La ronda de nit",
+    "categoria": "Art"
+  },
+  {
+    "enunciat": "Quin artista va pintar 'El jardí de les delícies'?",
+    "opcions": ["Hieronymus Bosch", "Pieter Bruegel el Vell", "Albrecht Dürer", "Jan van Eyck"],
+    "respostaCorrecta": "Hieronymus Bosch",
+    "categoria": "Art"
+  },
+  {
+    "enunciat": "Quin moviment artístic va liderar Wassily Kandinsky?",
+    "opcions": ["Expressionisme abstracte", "Surrealisme", "Cubisme", "Futurisme"],
+    "respostaCorrecta": "Expressionisme abstracte",
+    "categoria": "Art"
+  },
+  {
+    "enunciat": "Quina obra de Frida Kahlo reflecteix el seu dolor físic i emocional?",
+    "opcions": ["Les dues Fridas", "La columna trencada", "Autoretrat amb collar d'espines", "Viva la vida"],
+    "respostaCorrecta": "La columna trencada",
+    "categoria": "Art"
+  },
+  {
+    "enunciat": "Quin artista va pintar 'El menjar dels nuvis'?",
+    "opcions": ["Marc Chagall", "Pablo Picasso", "Henri Matisse", "Joan Miró"],
+    "respostaCorrecta": "Marc Chagall",
+    "categoria": "Art"
+  },
+  {
+    "enunciat": "Quina és l'escultura més famosa d'Auguste Rodin?",
+    "opcions": ["El pensador", "El petó", "El burgès de Calais", "La porta de l'infern"],
+    "respostaCorrecta": "El pensador",
+    "categoria": "Art"
+  },
+  {
+    "enunciat": "Quin artista va pintar 'La persistència de la memòria'?",
+    "opcions": ["Salvador Dalí", "René Magritte", "Max Ernst", "André Breton"],
+    "respostaCorrecta": "Salvador Dalí",
+    "categoria": "Art"
+  },
+  {
+    "enunciat": "Quin moviment artístic va fundar André Breton?",
+    "opcions": ["Surrealisme", "Dadaisme", "Futurisme", "Cubisme"],
+    "respostaCorrecta": "Surrealisme",
+    "categoria": "Art"
+  },
+  {
+    "enunciat": "Quin artista va pintar 'Els gira-sols'?",
+    "opcions": ["Vincent van Gogh", "Paul Gauguin", "Claude Monet", "Edgar Degas"],
+    "respostaCorrecta": "Vincent van Gogh",
+    "categoria": "Art"
+  },
+  {
+    "enunciat": "Quina obra de Joan Miró és més coneguda pel seu estil abstracte?",
+    "opcions": ["El camp de blat", "La masia", "El cant del rossinyol", "Constel·lacions"],
+    "respostaCorrecta": "Constel·lacions",
+    "categoria": "Art"
+  },
+  {
+    "enunciat": "Quin artista va pintar 'Els fusellaments del 3 de maig'?",
+    "opcions": ["Francisco de Goya", "Diego Velázquez", "El Greco", "Bartolomé Esteban Murillo"],
+    "respostaCorrecta": "Francisco de Goya",
+    "categoria": "Art"
+  },
+  {
+    "enunciat": "Quin artista va crear 'La font'?",
+    "opcions": ["Marcel Duchamp", "Andy Warhol", "Jackson Pollock", "Roy Lichtenstein"],
+    "respostaCorrecta": "Marcel Duchamp",
+    "categoria": "Art"
+  },
+  {
+    "enunciat": "Quin moviment artístic és associat amb Andy Warhol?",
+    "opcions": ["Pop Art", "Op Art", "Minimalisme", "Expressionisme abstracte"],
+    "respostaCorrecta": "Pop Art",
+    "categoria": "Art"
+  },
+  {
+    "enunciat": "Quin artista va pintar 'La noia de la perla'?",
+    "opcions": ["Johannes Vermeer", "Rembrandt", "Peter Paul Rubens", "Anthony van Dyck"],
+    "respostaCorrecta": "Johannes Vermeer",
+    "categoria": "Art"
+  },
+  {
+    "enunciat": "Quina obra de Caravaggio és coneguda pel seu ús del clarobscur?",
+    "opcions": ["La crida de Sant Mateu", "La conversió de Sant Pau", "El sopar a Emaús", "David amb el cap de Goliat"],
+    "respostaCorrecta": "La crida de Sant Mateu",
+    "categoria": "Art"
+  },
+  {
+    "enunciat": "Quin artista va pintar 'Els jugadors de cartes'?",
+    "opcions": ["Paul Cézanne", "Édouard Manet", "Pierre-Auguste Renoir", "Edgar Degas"],
+    "respostaCorrecta": "Paul Cézanne",
+    "categoria": "Art"
   },
   {
     "enunciat": "Quin any va començar la Segona Guerra Mundial?",
     "opcions": ["1914", "1939", "1945", "1789"],
-    "respostaCorrecta": 1
-  },
-  {
-    "enunciat": "Quin és l'element químic més abundant a l'univers?",
-    "opcions": ["Oxigen", "Hidrogen", "Carboni", "Ferro"],
-    "respostaCorrecta": 1
-  },
-  {
-    "enunciat": "Quin és el personatge principal de la saga de videojocs The Legend of Zelda?",
-    "opcions": ["Zelda", "Ganondorf", "Link", "Epona"],
-    "respostaCorrecta": 2
-  },
-  {
-    "enunciat": "Qui va dirigir la pel·lícula Titanic (1997)?",
-    "opcions": ["Steven Spielberg", "James Cameron", "Christopher Nolan", "Martin Scorsese"],
-    "respostaCorrecta": 1
-  },
-  {
-    "enunciat": "Quin país és famós per inventar la pizza?",
-    "opcions": ["Espanya", "Estats Units", "França", "Itàlia"],
-    "respostaCorrecta": 3
+    "respostaCorrecta": "1939",
+    "categoria": "Història"
   },
   {
     "enunciat": "Quin emperador romà va construir el mur que separava Britània dels bàrbars?",
     "opcions": ["Cèsar", "Neró", "Adrià", "August"],
-    "respostaCorrecta": 2
+    "respostaCorrecta": "Adrià",
+    "categoria": "Història"
   },
   {
-    "enunciat": "Quin és l’animal terrestre més ràpid del món?",
-    "opcions": ["Tigre", "Lleopard", "Guepard", "Cavall"],
-    "respostaCorrecta": 2
+    "enunciat": "Qui va ser el primer president dels Estats Units?",
+    "opcions": ["George Washington", "Abraham Lincoln", "Thomas Jefferson", "John Adams"],
+    "respostaCorrecta": "George Washington",
+    "categoria": "Història"
   },
   {
-    "enunciat": "Quina és la capital d’Austràlia?",
-    "opcions": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
-    "respostaCorrecta": 2
+    "enunciat": "En quin any es va signar el Tractat de Versalles, que va posar fi a la Primera Guerra Mundial?",
+    "opcions": ["1914", "1918", "1919", "1923"],
+    "respostaCorrecta": "1919",
+    "categoria": "Història"
   },
   {
-    "enunciat": "Quin és el riu més llarg del món?",
-    "opcions": ["Amazones", "Nil", "Mississipí", "Danubi"],
-    "respostaCorrecta": 1
+    "enunciat": "Quina civilització antiga va construir les piràmides de Gizeh?",
+    "opcions": ["Maies", "Romans", "Egipcis", "Grecs"],
+    "respostaCorrecta": "Egipcis",
+    "categoria": "Història"
   },
   {
-    "enunciat": "Quin és el metall més utilitzat en la fabricació de circuits electrònics?",
-    "opcions": ["Or", "Plata", "Silici", "Coure"],
-    "respostaCorrecta": 2
+    "enunciat": "Quin famós explorador va descobrir Amèrica el 1492?",
+    "opcions": ["Ferdinand Magalhães", "James Cook", "Cristòfor Colom", "Marco Polo"],
+    "respostaCorrecta": "Cristòfor Colom",
+    "categoria": "Història"
   },
   {
-    "enunciat": "Quina és la muntanya més alta del món?",
-    "opcions": ["Everest", "K2", "Kilimanjaro", "Annapurna"],
-    "respostaCorrecta": 0
+    "enunciat": "Qui va ser el líder de la Revolució Russa de 1917?",
+    "opcions": ["Lenin", "Stalin", "Trotski", "Nicolau II"],
+    "respostaCorrecta": "Lenin",
+    "categoria": "Història"
   },
   {
-    "enunciat": "Quina ciutat és coneguda com la Gran Poma?",
-    "opcions": ["Los Angeles", "Londres", "Nova York", "Chicago"],
-    "respostaCorrecta": 2
+    "enunciat": "Quin any va caure l'Imperi Romà d'Occident?",
+    "opcions": ["395", "410", "476", "1492"],
+    "respostaCorrecta": "476",
+    "categoria": "Història"
   },
   {
-    "enunciat": "Qui va escriure Hamlet?",
-    "opcions": ["Charles Dickens", "William Shakespeare", "Jane Austen", "Edgar Allan Poe"],
-    "respostaCorrecta": 1
+    "enunciat": "Qui va ser el primer faraó d'Egipte?",
+    "opcions": ["Tutankamon", "Cleòpatra", "Ramsès II", "Narmer"],
+    "respostaCorrecta": "Narmer",
+    "categoria": "Història"
   },
   {
-    "enunciat": "Quina és la capital de Japó?",
-    "opcions": ["Seül", "Tòquio", "Bangkok", "Pekín"],
-    "respostaCorrecta": 1
+    "enunciat": "Quin conflicte va enfrontar el bloc aliat amb les potències de l'Eix?",
+    "opcions": ["Guerra Civil Espanyola", "Primera Guerra Mundial", "Segona Guerra Mundial", "Guerra de Crimea"],
+    "respostaCorrecta": "Segona Guerra Mundial",
+    "categoria": "Història"
+  },
+  {
+    "enunciat": "Quina guerra va tenir lloc entre 1950 i 1953?",
+    "opcions": ["Guerra de Corea", "Guerra de Vietnam", "Guerra del Golf", "Guerra Civil Espanyola"],
+    "respostaCorrecta": "Guerra de Corea",
+    "categoria": "Història"
+  },
+  {
+    "enunciat": "Quin país va liderar la Revolució Industrial?",
+    "opcions": ["França", "Estats Units", "Alemanya", "Regne Unit"],
+    "respostaCorrecta": "Regne Unit",
+    "categoria": "Història"
+  },
+  {
+    "enunciat": "En quin any va començar la Revolució Francesa?",
+    "opcions": ["1776", "1789", "1815", "1848"],
+    "respostaCorrecta": "1789",
+    "categoria": "Història"
+  },
+  {
+    "enunciat": "Qui va ser el primer president de la Generalitat de Catalunya restaurada el 1931?",
+    "opcions": ["Lluís Companys", "Josep Tarradellas", "Francesc Macià", "Manuel Azaña"],
+    "respostaCorrecta": "Francesc Macià",
+    "categoria": "Història"
+  },
+  {
+    "enunciat": "Quin imperi va construir la Gran Muralla Xinesa?",
+    "opcions": ["Dinastia Han", "Imperi Mongol", "Dinastia Qin", "Dinastia Tang"],
+    "respostaCorrecta": "Dinastia Qin",
+    "categoria": "Història"
+  },
+  {
+    "enunciat": "Qui va escriure 'El Príncep', un famós tractat polític del Renaixement?",
+    "opcions": ["Montaigne", "Machiavel", "Descartes", "Luter"],
+    "respostaCorrecta": "Machiavel",
+    "categoria": "Història"
+  },
+  {
+    "enunciat": "Quina civilització precolombina va construir la ciutat de Machu Picchu?",
+    "opcions": ["Maies", "Olmecs", "Inques", "Asteques"],
+    "respostaCorrecta": "Inques",
+    "categoria": "Història"
+  },
+  {
+    "enunciat": "Quina batalla de 1066 va marcar la conquesta normanda d'Anglaterra?",
+    "opcions": ["Batalla de Hastings", "Batalla d'Azincourt", "Batalla de Poitiers", "Batalla de Stamford Bridge"],
+    "respostaCorrecta": "Batalla de Hastings",
+    "categoria": "Història"
+  },
+  {
+    "enunciat": "Qui va ser el fundador de l'Imperi Mongol?",
+    "opcions": ["Genguis Khan", "Kubilai Khan", "Tamerlà", "Atila"],
+    "respostaCorrecta": "Genguis Khan",
+    "categoria": "Història"
+  },
+  {
+    "enunciat": "En quin any es va independitzar els Estats Units?",
+    "opcions": ["1776", "1789", "1812", "1492"],
+    "respostaCorrecta": "1776",
+    "categoria": "Història"
+  },
+  {
+    "enunciat": "Qui va liderar la Unificació d'Itàlia el segle XIX?",
+    "opcions": ["Giuseppe Garibaldi", "Vittorio Emanuele II", "Benito Mussolini", "Cavour"],
+    "respostaCorrecta": "Giuseppe Garibaldi",
+    "categoria": "Història"
+  },
+  {
+    "enunciat": "Quin document va signar Joan I d'Anglaterra el 1215 per limitar el seu poder?",
+    "opcions": ["Bill of Rights", "Constitució dels EUA", "Carta Magna", "Tractat de Westfàlia"],
+    "respostaCorrecta": "Carta Magna",
+    "categoria": "Història"
+  },
+  {
+    "enunciat": "Qui va ser la primera dona a governar Anglaterra com a reina per dret propi?",
+    "opcions": ["Maria I", "Isabel I", "Victòria", "Anna"],
+    "respostaCorrecta": "Maria I",
+    "categoria": "Història"
+  },
+  {
+    "enunciat": "On es va signar el Tractat que va posar fi a la Guerra dels Trenta Anys?",
+    "opcions": ["Versalles", "Westfàlia", "Utrecht", "Viena"],
+    "respostaCorrecta": "Westfàlia",
+    "categoria": "Història"
+  },
+  {
+    "enunciat": "Quina revolució va portar a la independència de les colònies americanes d'Espanya?",
+    "opcions": ["Revolució Francesa", "Revolució Haitiana", "Guerres d'Independència Hispanoamericanes", "Primavera dels Pobles"],
+    "respostaCorrecta": "Guerres d'Independència Hispanoamericanes",
+    "categoria": "Història"
+  },
+  {
+    "enunciat": "Qui va ser el líder de la Revolució Xinesa de 1949?",
+    "opcions": ["Deng Xiaoping", "Mao Zedong", "Sun Yat-sen", "Chiang Kai-shek"],
+    "respostaCorrecta": "Mao Zedong",
+    "categoria": "Història"
+  },
+  {
+    "enunciat": "Quina ciutat va ser dividida per un mur entre 1961 i 1989?",
+    "opcions": ["Praga", "Berlín", "Moscou", "Varsòvia"],
+    "respostaCorrecta": "Berlín",
+    "categoria": "Història"
+  },
+  {
+    "enunciat": "Quin és l'element químic més abundant a l'univers?",
+    "opcions": ["Oxigen", "Hidrogen", "Carboni", "Ferro"],
+    "respostaCorrecta": "Hidrogen",
+    "categoria": "Ciència"
   },
   {
     "enunciat": "Quina és la fórmula química de l’aigua?",
     "opcions": ["H2O", "CO2", "O2", "NaCl"],
-    "respostaCorrecta": 0
+    "respostaCorrecta": "H2O",
+    "categoria": "Ciència"
   },
   {
     "enunciat": "Qui va ser el primer home a trepitjar la Lluna?",
     "opcions": ["Buzz Aldrin", "Neil Armstrong", "Yuri Gagarin", "Michael Collins"],
-    "respostaCorrecta": 1
+    "respostaCorrecta": "Neil Armstrong",
+    "categoria": "Ciència"
+  },
+  {
+    "enunciat": "Quin és el metall més utilitzat en la fabricació de circuits electrònics?",
+    "opcions": ["Or", "Plata", "Silici", "Coure"],
+    "respostaCorrecta": "Silici",
+    "categoria": "Ciència"
+  },
+  {
+    "enunciat": "Qui va formular la teoria de la relativitat?",
+    "opcions": ["Isaac Newton", "Albert Einstein", "Galileu Galilei", "Stephen Hawking"],
+    "respostaCorrecta": "Albert Einstein",
+    "categoria": "Ciència"
+  },
+  {
+    "enunciat": "Quin planeta del sistema solar és conegut com el 'Planeta Vermell'?",
+    "opcions": ["Mart", "Venus", "Júpiter", "Saturn"],
+    "respostaCorrecta": "Mart",
+    "categoria": "Ciència"
+  },
+  {
+    "enunciat": "Quin científic va descobrir la penicil·lina?",
+    "opcions": ["Alexander Fleming", "Louis Pasteur", "Robert Koch", "Edward Jenner"],
+    "respostaCorrecta": "Alexander Fleming",
+    "categoria": "Ciència"
+  },
+  {
+    "enunciat": "Quina part de la cèl·lula conté la informació genètica?",
+    "opcions": ["Mitocondri", "Ribosoma", "Nucli", "Membrana cel·lular"],
+    "respostaCorrecta": "Nucli",
+    "categoria": "Ciència"
+  },
+  {
+    "enunciat": "Quin gas fonamentalment compon l'atmosfera terrestre?",
+    "opcions": ["Oxigen", "Diòxid de carboni", "Hidrogen", "Nitrogen"],
+    "respostaCorrecta": "Nitrogen",
+    "categoria": "Ciència"
+  },
+  {
+    "enunciat": "Quina unitat es fa servir per mesurar la intensitat del corrent elèctric?",
+    "opcions": ["Volt", "Ampere", "Ohm", "Watt"],
+    "respostaCorrecta": "Ampere",
+    "categoria": "Ciència"
+  },
+  {
+    "enunciat": "Com es diu el procés pel qual les plantes produeixen oxigen?",
+    "opcions": ["Respiració", "Fotosíntesi", "Fermentació", "Digestió"],
+    "respostaCorrecta": "Fotosíntesi",
+    "categoria": "Ciència"
+  },
+  {
+    "enunciat": "Quin és l'òrgan més gran del cos humà?",
+    "opcions": ["Pulmons", "Fetge", "Pell", "Cervell"],
+    "respostaCorrecta": "Pell",
+    "categoria": "Ciència"
+  },
+  {
+    "enunciat": "Quina vitamina es coneix com la 'vitamina del sol'?",
+    "opcions": ["Vitamina A", "Vitamina C", "Vitamina D", "Vitamina B12"],
+    "respostaCorrecta": "Vitamina D",
+    "categoria": "Ciència"
+  },
+  {
+    "enunciat": "Quin tipus d’ona utilitzen els forns microones per escalfar els aliments?",
+    "opcions": ["Infrarojos", "Microones", "Raigs X", "Ultrasons"],
+    "respostaCorrecta": "Microones",
+    "categoria": "Ciència"
+  },
+  {
+    "enunciat": "Quin és el segon element més abundant a l'escorça terrestre després de l'oxigen?",
+    "opcions": ["Silici", "Ferro", "Alumini", "Carboni"],
+    "respostaCorrecta": "Silici",
+    "categoria": "Ciència"
+  },
+  {
+    "enunciat": "Quina part del cos humà conté el fémur?",
+    "opcions": ["Braç", "Crani", "Cama", "Esquena"],
+    "respostaCorrecta": "Cama",
+    "categoria": "Ciència"
+  },
+  {
+    "enunciat": "Quin tipus de sang es considera el donant universal?",
+    "opcions": ["A+", "B-", "O-", "AB+"],
+    "respostaCorrecta": "O-",
+    "categoria": "Ciència"
+  },
+  {
+    "enunciat": "Quina és la unitat bàsica de la matèria?",
+    "opcions": ["Molècula", "Cèl·lula", "Àtom", "Electró"],
+    "respostaCorrecta": "Àtom",
+    "categoria": "Ciència"
+  },
+  {
+    "enunciat": "Quina força fa que els objectes siguin atrets cap al centre de la Terra?",
+    "opcions": ["Electromagnetisme", "Gravetat", "Força nuclear forta", "Força centrífuga"],
+    "respostaCorrecta": "Gravetat",
+    "categoria": "Ciència"
+  },
+  {
+    "enunciat": "Qui va proposar la teoria de l’evolució per selecció natural?",
+    "opcions": ["Gregor Mendel", "Isaac Newton", "Charles Darwin", "Galileu Galilei"],
+    "respostaCorrecta": "Charles Darwin",
+    "categoria": "Ciència"
+  },
+  {
+    "enunciat": "Quina estructura del cervell humà és responsable de la memòria?",
+    "opcions": ["Hipotàlem", "Còrtex cerebral", "Hipocamp", "Tronc cerebral"],
+    "respostaCorrecta": "Hipocamp",
+    "categoria": "Ciència"
+  },
+  {
+    "enunciat": "Quina velocitat aproximada té la llum en el buit?",
+    "opcions": ["300.000 km/s", "150.000 km/s", "500.000 km/s", "1.000.000 km/s"],
+    "respostaCorrecta": "300.000 km/s",
+    "categoria": "Ciència"
+  },
+  {
+    "enunciat": "Quin tipus de càrrega elèctrica tenen els electrons?",
+    "opcions": ["Positiva", "Negativa", "Neutra", "Depèn de la situació"],
+    "respostaCorrecta": "Negativa",
+    "categoria": "Ciència"
+  },
+  {
+    "enunciat": "Quina part de l’ull és responsable de la percepció del color?",
+    "opcions": ["Còrnia", "Iris", "Cones", "Bastons"],
+    "respostaCorrecta": "Cones",
+    "categoria": "Ciència"
+  },
+  {
+    "enunciat": "Qui va dirigir la pel·lícula Titanic (1997)?",
+    "opcions": ["Steven Spielberg", "James Cameron", "Christopher Nolan", "Martin Scorsese"],
+    "respostaCorrecta": "James Cameron",
+    "categoria": "Cinema"
+  },
+  {
+    "enunciat": "Quina pel·lícula va guanyar l'Oscar a la millor pel·lícula el 1994?",
+    "opcions": ["Forrest Gump", "Pulp Fiction", "El rei lleó", "Cadena perpètua"],
+    "respostaCorrecta": "Forrest Gump",
+    "categoria": "Cinema"
+  },
+  {
+    "enunciat": "Quin actor interpreta Jack Dawson a 'Titanic'?",
+    "opcions": ["Brad Pitt", "Tom Cruise", "Leonardo DiCaprio", "Johnny Depp"],
+    "respostaCorrecta": "Leonardo DiCaprio",
+    "categoria": "Cinema"
+  },
+  {
+    "enunciat": "Quina saga de ciència-ficció comença amb la frase 'Fa molt de temps, en una galàxia molt, molt llunyana'?",
+    "opcions": ["Star Trek", "Star Wars", "Dune", "Matrix"],
+    "respostaCorrecta": "Star Wars",
+    "categoria": "Cinema"
+  },
+  {
+    "enunciat": "Quin director és conegut per pel·lícules com 'Pulp Fiction' i 'Kill Bill'?",
+    "opcions": ["Martin Scorsese", "Christopher Nolan", "Steven Spielberg", "Quentin Tarantino"],
+    "respostaCorrecta": "Quentin Tarantino",
+    "categoria": "Cinema"
+  },
+  {
+    "enunciat": "Qui va interpretar Tony Montana a 'Scarface'?",
+    "opcions": ["Robert De Niro", "Al Pacino", "Marlon Brando", "Joe Pesci"],
+    "respostaCorrecta": "Al Pacino",
+    "categoria": "Cinema"
+  },
+  {
+    "enunciat": "Quina pel·lícula de terror de 1973 gira al voltant d'una nena posseïda per un dimoni?",
+    "opcions": ["La profecia", "L'Exorcista", "Halloween", "Poltergeist"],
+    "respostaCorrecta": "L'Exorcista",
+    "categoria": "Cinema"
+  },
+  {
+    "enunciat": "Quin actor va guanyar l'Oscar al millor actor pel seu paper a 'Joker' (2019)?",
+    "opcions": ["Joaquin Phoenix", "Heath Ledger", "Christian Bale", "Robert Pattinson"],
+    "respostaCorrecta": "Joaquin Phoenix",
+    "categoria": "Cinema"
+  },
+  {
+    "enunciat": "Quin és el nom del personatge de Johnny Depp a 'Pirates del Carib'?",
+    "opcions": ["Will Turner", "Jack Sparrow", "Davy Jones", "Hector Barbossa"],
+    "respostaCorrecta": "Jack Sparrow",
+    "categoria": "Cinema"
+  },
+  {
+    "enunciat": "Quina pel·lícula va ser la primera de Pixar?",
+    "opcions": ["Toy Story", "Buscant en Nemo", "Cars", "Monstres S.A."],
+    "respostaCorrecta": "Toy Story",
+    "categoria": "Cinema"
+  },
+  {
+    "enunciat": "Quin director està darrere de la trilogia 'El cavaller fosc'?",
+    "opcions": ["Steven Spielberg", "Christopher Nolan", "Zack Snyder", "Ridley Scott"],
+    "respostaCorrecta": "Christopher Nolan",
+    "categoria": "Cinema"
+  },
+  {
+    "enunciat": "Quina pel·lícula de ciència-ficció del 1999 presenta el personatge de Neo?",
+    "opcions": ["Blade Runner", "Minority Report", "Matrix", "Terminator 2"],
+    "respostaCorrecta": "Matrix",
+    "categoria": "Cinema"
+  },
+  {
+    "enunciat": "Quin és el nom de la famosa nau espacial a 'Alien' (1979)?",
+    "opcions": ["Enterprise", "Millennium Falcon", "Nostromo", "Discovery One"],
+    "respostaCorrecta": "Nostromo",
+    "categoria": "Cinema"
+  },
+  {
+    "enunciat": "Quin any es va estrenar 'El senyor dels anells: La comunitat de l'anell'?",
+    "opcions": ["1999", "2001", "2003", "2005"],
+    "respostaCorrecta": "2001",
+    "categoria": "Cinema"
+  },
+  {
+    "enunciat": "Quin actor va interpretar el Joker a 'El cavaller fosc'?",
+    "opcions": ["Joaquin Phoenix", "Jared Leto", "Heath Ledger", "Jack Nicholson"],
+    "respostaCorrecta": "Heath Ledger",
+    "categoria": "Cinema"
+  },
+  {
+    "enunciat": "Quina pel·lícula d'animació de Disney està basada en una llegenda xinesa?",
+    "opcions": ["Pocahontas", "Aladdin", "Mulan", "Hèrcules"],
+    "respostaCorrecta": "Mulan",
+    "categoria": "Cinema"
+  },
+  {
+    "enunciat": "Quina pel·lícula d'Alfred Hitchcock conté una icònica escena a la dutxa?",
+    "opcions": ["Vertigen", "Psicosi", "Els ocells", "Finestra indiscreta"],
+    "respostaCorrecta": "Psicosi",
+    "categoria": "Cinema"
+  },
+  {
+    "enunciat": "Quina pel·lícula conté la famosa frase 'Francament, estimada, m'importa un rave'?",
+    "opcions": ["Casablanca", "Allò que el vent s'endugué", "Ben-Hur", "Lawrence d'Aràbia"],
+    "respostaCorrecta": "Allò que el vent s'endugué",
+    "categoria": "Cinema"
+  },
+  {
+    "enunciat": "Quin director és responsable de 'E.T. l'extraterrestre'?",
+    "opcions": ["James Cameron", "George Lucas", "Steven Spielberg", "Ridley Scott"],
+    "respostaCorrecta": "Steven Spielberg",
+    "categoria": "Cinema"
+  },
+  {
+    "enunciat": "Quina saga de pel·lícules gira al voltant d'un arqueòleg anomenat Indiana Jones?",
+    "opcions": ["Jurassic Park", "El senyor dels anells", "Indiana Jones", "Star Wars"],
+    "respostaCorrecta": "Indiana Jones",
+    "categoria": "Cinema"
+  },
+  {
+    "enunciat": "Quin actor va protagonitzar 'Forrest Gump'?",
+    "opcions": ["Tom Hanks", "Robin Williams", "Brad Pitt", "Matt Damon"],
+    "respostaCorrecta": "Tom Hanks",
+    "categoria": "Cinema"
+  },
+  {
+    "enunciat": "Quin país és famós per inventar la pizza?",
+    "opcions": ["Espanya", "Estats Units", "França", "Itàlia"],
+    "respostaCorrecta": "Itàlia",
+    "categoria": "Cultura"
+  },
+  {
+    "enunciat": "Quina ciutat és coneguda com la Gran Poma?",
+    "opcions": ["Los Angeles", "Londres", "Nova York", "Chicago"],
+    "respostaCorrecta": "Nova York",
+    "categoria": "Cultura"
+  },
+  {
+    "enunciat": "Quin és l'esdeveniment esportiu més vist a tot el món?",
+    "opcions": ["Els Jocs Olímpics", "La Super Bowl", "La Copa del Món de la FIFA", "El Tour de França"],
+    "respostaCorrecta": "La Copa del Món de la FIFA",
+    "categoria": "Cultura"
+  },
+  {
+    "enunciat": "Quin país és el bressol del flamenc?",
+    "opcions": ["Mèxic", "Espanya", "Argentina", "Cuba"],
+    "respostaCorrecta": "Espanya",
+    "categoria": "Cultura"
+  },
+  {
+    "enunciat": "Quina ciutat és coneguda com 'La Gran Poma'?",
+    "opcions": ["Londres", "París", "Nova York", "Tòquio"],
+    "respostaCorrecta": "Nova York",
+    "categoria": "Cultura"
+  },
+  {
+    "enunciat": "Quina és la llengua més parlada del món per nombre de parlants nadius?",
+    "opcions": ["Anglès", "Espanyol", "Xinès mandarí", "Àrab"],
+    "respostaCorrecta": "Xinès mandarí",
+    "categoria": "Cultura"
+  },
+  {
+    "enunciat": "Quin famós pintor va tallar-se una orella?",
+    "opcions": ["Pablo Picasso", "Salvador Dalí", "Claude Monet", "Vincent van Gogh"],
+    "respostaCorrecta": "Vincent van Gogh",
+    "categoria": "Cultura"
+  },
+  {
+    "enunciat": "En quin país es troba la Torre Eiffel?",
+    "opcions": ["Itàlia", "França", "Espanya", "Alemanya"],
+    "respostaCorrecta": "França",
+    "categoria": "Cultura"
+  },
+  {
+    "enunciat": "Quin gènere musical va néixer a Nova Orleans a finals del segle XIX?",
+    "opcions": ["Blues", "Jazz", "Rock", "Salsa"],
+    "respostaCorrecta": "Jazz",
+    "categoria": "Cultura"
+  },
+  {
+    "enunciat": "Quin és el llibre més venut de la història, excloent textos religiosos?",
+    "opcions": ["El Quixot", "El Senyor dels Anells", "Harry Potter", "Història de dues ciutats"],
+    "respostaCorrecta": "Història de dues ciutats",
+    "categoria": "Cultura"
+  },
+  {
+    "enunciat": "Quina civilització antiga va construir les piràmides de Gizeh?",
+    "opcions": ["Maia", "Inca", "Egípcia", "Mesopotàmica"],
+    "respostaCorrecta": "Egípcia",
+    "categoria": "Cultura"
+  },
+  {
+    "enunciat": "Quin arquitecte català és conegut per la Sagrada Família?",
+    "opcions": ["Santiago Calatrava", "Antoni Gaudí", "Frank Gehry", "Luis Barragán"],
+    "respostaCorrecta": "Antoni Gaudí",
+    "categoria": "Cultura"
+  },
+  {
+    "enunciat": "A quin país se celebra el festival de la Tomatina?",
+    "opcions": ["Itàlia", "Espanya", "Portugal", "Mèxic"],
+    "respostaCorrecta": "Espanya",
+    "categoria": "Cultura"
+  },
+  {
+    "enunciat": "Quina festa tradicional mexicana celebra el record dels difunts?",
+    "opcions": ["Carnaval", "Dia de la Independència", "Dia de la Mare", "Dia dels Morts"],
+    "respostaCorrecta": "Dia dels Morts",
+    "categoria": "Cultura"
+  },
+  {
+    "enunciat": "Quin és el ball nacional d’Argentina?",
+    "opcions": ["Salsa", "Tango", "Flamenc", "Merengue"],
+    "respostaCorrecta": "Tango",
+    "categoria": "Cultura"
+  },
+  {
+    "enunciat": "Quina ciutat és coneguda com la capital de la moda?",
+    "opcions": ["Nova York", "Milà", "París", "Londres"],
+    "respostaCorrecta": "París",
+    "categoria": "Cultura"
+  },
+  {
+    "enunciat": "Quin és l’ingredient principal del sushi?",
+    "opcions": ["Peix cru", "Arròs", "Alga nori", "Soja"],
+    "respostaCorrecta": "Arròs",
+    "categoria": "Cultura"
+  },
+  {
+    "enunciat": "Quina companyia va crear el personatge de Mickey Mouse?",
+    "opcions": ["Warner Bros", "Pixar", "Disney", "DreamWorks"],
+    "respostaCorrecta": "Disney",
+    "categoria": "Cultura"
+  },
+  {
+    "enunciat": "Quina festivitat d'origen celta es celebra la nit del 31 d'octubre?",
+    "opcions": ["Carnaval", "Halloween", "Nadal", "Sant Joan"],
+    "respostaCorrecta": "Halloween",
+    "categoria": "Cultura"
+  },
+  {
+    "enunciat": "Quin és el nom de l'escultura més famosa de Miguel Àngel?",
+    "opcions": ["El Pensador", "David", "Venus de Milo", "La Pietà"],
+    "respostaCorrecta": "David",
+    "categoria": "Cultura"
+  },
+  {
+    "enunciat": "En quin país va néixer el compositor Ludwig van Beethoven?",
+    "opcions": ["Àustria", "Alemanya", "França", "Itàlia"],
+    "respostaCorrecta": "Alemanya",
+    "categoria": "Cultura"
+  },
+  {
+    "enunciat": "Quin és l’animal terrestre més ràpid del món?",
+    "opcions": ["Tigre", "Lleopard", "Guepard", "Cavall"],
+    "respostaCorrecta": "Guepard",
+    "categoria": "Natura"
+  },
+  {
+    "enunciat": "Quin és l'animal terrestre més gran del món?",
+    "opcions": ["Elefant africà", "Girafa", "Ós polar", "Hipopòtam"],
+    "respostaCorrecta": "Elefant africà",
+    "categoria": "Natura"
+  },
+  {
+    "enunciat": "Quin és el riu més llarg del món?",
+    "opcions": ["Amazonas", "Nil", "Mississipí", "Danubi"],
+    "respostaCorrecta": "Nil",
+    "categoria": "Natura"
+  },
+  {
+    "enunciat": "Quin és l’oceà més gran del món?",
+    "opcions": ["Atlàntic", "Índic", "Pacífic", "Àrtic"],
+    "respostaCorrecta": "Pacífic",
+    "categoria": "Natura"
+  },
+  {
+    "enunciat": "Quin tipus d'animal és una balena?",
+    "opcions": ["Peix", "Amfibi", "Mamífer", "Rèptil"],
+    "respostaCorrecta": "Mamífer",
+    "categoria": "Natura"
+  },
+  {
+    "enunciat": "Quin és l'arbre més alt del món?",
+    "opcions": ["Baobab", "Sequoia", "Roures", "Eucaliptus"],
+    "respostaCorrecta": "Sequoia",
+    "categoria": "Natura"
+  },
+  {
+    "enunciat": "Quina espècie animal es coneix com 'el rei de la selva'?",
+    "opcions": ["Tigre", "Lleó", "Elefant", "Ós"],
+    "respostaCorrecta": "Lleó",
+    "categoria": "Natura"
+  },
+  {
+    "enunciat": "Quin és el desert més gran del món?",
+    "opcions": ["Sàhara", "Gobi", "Antàrtida", "Kalahari"],
+    "respostaCorrecta": "Antàrtida",
+    "categoria": "Natura"
+  },
+  {
+    "enunciat": "Quina au és coneguda per la seva capacitat de girar el cap gairebé 360 graus?",
+    "opcions": ["Àguila", "Òliba", "Falcó", "Corb"],
+    "respostaCorrecta": "Òliba",
+    "categoria": "Natura"
+  },
+  {
+    "enunciat": "Com es diuen els animals que només mengen plantes?",
+    "opcions": ["Carnívors", "Herbívors", "Omnívors", "Detritívors"],
+    "respostaCorrecta": "Herbívors",
+    "categoria": "Natura"
+  },
+  {
+    "enunciat": "Quin és el planeta més gran del sistema solar?",
+    "opcions": ["Mart", "Venus", "Júpiter", "Saturn"],
+    "respostaCorrecta": "Júpiter",
+    "categoria": "Natura"
+  },
+  {
+    "enunciat": "Quina espècie d’ós és coneguda per menjar bambú?",
+    "opcions": ["Ós polar", "Ós negre", "Ós bru", "Ós panda"],
+    "respostaCorrecta": "Ós panda",
+    "categoria": "Natura"
+  },
+  {
+    "enunciat": "Quina és la flor nacional del Japó?",
+    "opcions": ["Rosa", "Tulipa", "Girasol", "Flor de cirerer"],
+    "respostaCorrecta": "Flor de cirerer",
+    "categoria": "Natura"
+  },
+  {
+    "enunciat": "Quin és l’animal més ràpid del món?",
+    "opcions": ["Guepard", "Falcó pelegrí", "Lleó", "Cavall"],
+    "respostaCorrecta": "Falcó pelegrí",
+    "categoria": "Natura"
+  },
+  {
+    "enunciat": "Quina és la muntanya més alta del món?",
+    "opcions": ["Mont Blanc", "K2", "Everest", "Aconcagua"],
+    "respostaCorrecta": "Everest",
+    "categoria": "Natura"
+  },
+  {
+    "enunciat": "Com es diuen els animals que dormen durant l'hivern?",
+    "opcions": ["Diürns", "Nocturns", "Migratoris", "Hibernants"],
+    "respostaCorrecta": "Hibernants",
+    "categoria": "Natura"
+  },
+  {
+    "enunciat": "Quin tipus de fulla tenen els pins?",
+    "opcions": ["Rodona", "Acerada", "Lobulada", "Agujiforme"],
+    "respostaCorrecta": "Agujiforme",
+    "categoria": "Natura"
+  },
+  {
+    "enunciat": "Quin és el rèptil més gran del món?",
+    "opcions": ["Serp pitó", "Caiman", "Cocodril d’aigua salada", "Dragó de Komodo"],
+    "respostaCorrecta": "Cocodril d’aigua salada",
+    "categoria": "Natura"
+  },
+  {
+    "enunciat": "Quin tipus de clima es caracteritza per pluges constants i temperatures càlides?",
+    "opcions": ["Desèrtic", "Polar", "Mediterrani", "Tropical"],
+    "respostaCorrecta": "Tropical",
+    "categoria": "Natura"
+  },
+  {
+    "enunciat": "Com es diu el procés pel qual les plantes transformen la llum solar en energia?",
+    "opcions": ["Respiració", "Germinació", "Fotosíntesi", "Fermentació"],
+    "respostaCorrecta": "Fotosíntesi",
+    "categoria": "Natura"
+  },
+  {
+    "enunciat": "Quina és la capital d’Austràlia?",
+    "opcions": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+    "respostaCorrecta": "Canberra",
+    "categoria": "Geografia"
+  },
+  {
+    "enunciat": "Quin és el riu més llarg del món?",
+    "opcions": ["Amazones", "Nil", "Mississipí", "Danubi"],
+    "respostaCorrecta": "Nil",
+    "categoria": "Geografia"
+  },
+  {
+    "enunciat": "Quina és la capital de Japó?",
+    "opcions": ["Seül", "Tòquio", "Bangkok", "Pekín"],
+    "respostaCorrecta": "Tòquio",
+    "categoria": "Geografia"
+  },
+  {
+    "enunciat": "Quina és la muntanya més alta del món?",
+    "opcions": ["Everest", "K2", "Kilimanjaro", "Annapurna"],
+    "respostaCorrecta": "Everest",
+    "categoria": "Geografia"
+  },
+  {
+    "enunciat": "Quin és el país més gran del món en superfície?",
+    "opcions": ["Estats Units", "Canadà", "Xina", "Rússia"],
+    "respostaCorrecta": "Rússia",
+    "categoria": "Geografia"
+  },
+  {
+    "enunciat": "Quina és la capital de Brasil?",
+    "opcions": ["Rio de Janeiro", "São Paulo", "Brasília", "Salvador"],
+    "respostaCorrecta": "Brasília",
+    "categoria": "Geografia"
+  },
+  {
+    "enunciat": "Quants continents hi ha al món?",
+    "opcions": ["5", "6", "7", "8"],
+    "respostaCorrecta": "7",
+    "categoria": "Geografia"
+  },
+  {
+    "enunciat": "Quin país té més habitants?",
+    "opcions": ["Índia", "Estats Units", "Xina", "Indonèsia"],
+    "respostaCorrecta": "Xina",
+    "categoria": "Geografia"
+  },
+  {
+    "enunciat": "Quina és la capital de Sud-àfrica?",
+    "opcions": ["Pretòria", "Ciutat del Cap", "Johannesburg", "Durban"],
+    "respostaCorrecta": "Pretòria",
+    "categoria": "Geografia"
+  },
+  {
+    "enunciat": "Quin mar separa Europa de l’Àfrica?",
+    "opcions": ["Mar Roig", "Mar del Nord", "Mar Mediterrani", "Mar Bàltic"],
+    "respostaCorrecta": "Mar Mediterrani",
+    "categoria": "Geografia"
+  },
+  {
+    "enunciat": "Quina és l’illa més gran del món?",
+    "opcions": ["Groenlàndia", "Austràlia", "Madagascar", "Borneo"],
+    "respostaCorrecta": "Groenlàndia",
+    "categoria": "Geografia"
+  },
+  {
+    "enunciat": "Quin és el país més petit del món?",
+    "opcions": ["Mònaco", "San Marino", "Liechtenstein", "Vaticà"],
+    "respostaCorrecta": "Vaticà",
+    "categoria": "Geografia"
+  },
+  {
+    "enunciat": "Quina és la capital de Canadà?",
+    "opcions": ["Toronto", "Vancouver", "Ottawa", "Mont-real"],
+    "respostaCorrecta": "Ottawa",
+    "categoria": "Geografia"
+  },
+  {
+    "enunciat": "Quin és l'únic país que és també un continent?",
+    "opcions": ["Austràlia", "Groenlàndia", "Antàrtida", "Indonèsia"],
+    "respostaCorrecta": "Austràlia",
+    "categoria": "Geografia"
+  },
+  {
+    "enunciat": "A quin continent es troba Egipte?",
+    "opcions": ["Àsia", "Europa", "Àfrica", "Amèrica"],
+    "respostaCorrecta": "Àfrica",
+    "categoria": "Geografia"
+  },
+  {
+    "enunciat": "Quin país té més illes al seu territori?",
+    "opcions": ["Filipines", "Suècia", "Indonèsia", "Noruega"],
+    "respostaCorrecta": "Suècia",
+    "categoria": "Geografia"
+  },
+  {
+    "enunciat": "Quin és el punt més profund dels oceans?",
+    "opcions": ["Fossa de les Mariannes", "Fossa de Puerto Rico", "Fossa de Java", "Fossa de Tonga"],
+    "respostaCorrecta": "Fossa de les Mariannes",
+    "categoria": "Geografia"
+  },
+  {
+    "enunciat": "Quina ciutat es coneix com 'la ciutat eterna'?",
+    "opcions": ["Atenes", "París", "Roma", "Jerusalem"],
+    "respostaCorrecta": "Roma",
+    "categoria": "Geografia"
+  },
+  {
+    "enunciat": "Quina és la serralada més llarga del món?",
+    "opcions": ["Himàlaia", "Andes", "Pirineus", "Rocalloses"],
+    "respostaCorrecta": "Andes",
+    "categoria": "Geografia"
+  },
+  {
+    "enunciat": "Quin és el llac més gran del món per superfície?",
+    "opcions": ["Llac Superior", "Llac Victòria", "Mar Caspi", "Llac Baikal"],
+    "respostaCorrecta": "Mar Caspi",
+    "categoria": "Geografia"
+  },
+  {
+    "enunciat": "A quin país es troba el Gran Canyó?",
+    "opcions": ["Mèxic", "Estats Units", "Argentina", "Xile"],
+    "respostaCorrecta": "Estats Units",
+    "categoria": "Geografia"
+  },
+  {
+    "enunciat": "Quina és la ciutat més poblada del món?",
+    "opcions": ["Nova York", "Tòquio", "Bombai", "Shanghai"],
+    "respostaCorrecta": "Tòquio",
+    "categoria": "Geografia"
+  },
+  {
+    "enunciat": "A quin país pertany l’illa de Mallorca?",
+    "opcions": ["França", "Itàlia", "Espanya", "Portugal"],
+    "respostaCorrecta": "Espanya",
+    "categoria": "Geografia"
+  },
+  {
+    "enunciat": "Quin és el personatge principal de la saga de videojocs The Legend of Zelda?",
+    "opcions": ["Zelda", "Ganondorf", "Link", "Epona"],
+    "respostaCorrecta": "Link",
+    "categoria": "Videojocs"
   },
   {
     "enunciat": "Quin és el nom del protagonista de la saga Halo?",
     "opcions": ["Master Chief", "Cortana", "Arbiter", "Sergeant Johnson"],
-    "respostaCorrecta": 0
+    "respostaCorrecta": "Master Chief",
+    "categoria": "Videojocs"
   },
   {
     "enunciat": "En quin any es va llançar el primer videojoc de la saga The Legend of Zelda?",
     "opcions": ["1983", "1986", "1990", "1995"],
-    "respostaCorrecta": 1
+    "respostaCorrecta": "1986",
+    "categoria": "Videojocs"
   },
   {
     "enunciat": "Quin és el nom del regne on es desenvolupa la majoria dels jocs de Zelda?",
     "opcions": ["Hyrule", "Mushroom Kingdom", "Tamriel", "Kanto"],
-    "respostaCorrecta": 0
+    "respostaCorrecta": "Hyrule",
+    "categoria": "Videojocs"
   },
   {
     "enunciat": "Quina empresa va crear el joc Minecraft?",
     "opcions": ["Mojang", "Nintendo", "Ubisoft", "Valve"],
-    "respostaCorrecta": 0
+    "respostaCorrecta": "Mojang",
+    "categoria": "Videojocs"
   },
   {
     "enunciat": "Com es diu el personatge principal de la saga de videojocs Final Fantasy VII?",
     "opcions": ["Cloud Strife", "Sephiroth", "Squall Leonhart", "Tidus"],
-    "respostaCorrecta": 0
+    "respostaCorrecta": "Cloud Strife",
+    "categoria": "Videojocs"
   },
   {
     "enunciat": "Quin és el nom del planeta on es desenvolupa gran part de la saga Mass Effect?",
     "opcions": ["Terra", "Citadel", "Eden Prime", "Tuchanka"],
-    "respostaCorrecta": 2
+    "respostaCorrecta": "Eden Prime",
+    "categoria": "Videojocs"
   },
   {
     "enunciat": "Quin és el joc més venut de tots els temps?",
     "opcions": ["Grand Theft Auto V", "Minecraft", "Tetris", "Super Mario Bros."],
-    "respostaCorrecta": 1
+    "respostaCorrecta": "Minecraft",
+    "categoria": "Videojocs"
   },
   {
     "enunciat": "Quin personatge de Street Fighter crida 'Hadouken' quan llança el seu atac especial?",
     "opcions": ["Ryu", "Ken", "Chun-Li", "Guile"],
-    "respostaCorrecta": 0
+    "respostaCorrecta": "Ryu",
+    "categoria": "Videojocs"
   },
   {
     "enunciat": "Quina empresa va crear la sèrie de videojocs The Witcher?",
     "opcions": ["Bethesda", "CD Projekt Red", "BioWare", "Rockstar Games"],
-    "respostaCorrecta": 1
+    "respostaCorrecta": "CD Projekt Red",
+    "categoria": "Videojocs"
   },
   {
     "enunciat": "Com es diu el protagonista de la saga de videojocs God of War?",
     "opcions": ["Kratos", "Ares", "Zeus", "Hercules"],
-    "respostaCorrecta": 0
+    "respostaCorrecta": "Kratos",
+    "categoria": "Videojocs"
   },
   {
     "enunciat": "Quin és el nom del protagonista de la saga de videojocs Assassin's Creed?",
     "opcions": ["Ezio Auditore", "Altaïr Ibn-La'Ahad", "Connor Kenway", "Desmond Miles"],
-    "respostaCorrecta": 3
+    "respostaCorrecta": "Desmond Miles",
+    "categoria": "Videojocs"
   },
   {
     "enunciat": "Quin és el nom del protagonista de la saga de videojocs Uncharted?",
     "opcions": ["Nathan Drake", "Sam Drake", "Elena Fisher", "Victor Sullivan"],
-    "respostaCorrecta": 0
+    "respostaCorrecta": "Nathan Drake",
+    "categoria": "Videojocs"
   },
   {
     "enunciat": "Quin és el nom del protagonista de la saga de videojocs Metal Gear Solid?",
     "opcions": ["Solid Snake", "Liquid Snake", "Big Boss", "Raiden"],
-    "respostaCorrecta": 0
+    "respostaCorrecta": "Solid Snake",
+    "categoria": "Videojocs"
   },
   {
     "enunciat": "Quin és el nom del protagonista de la saga de videojocs Half-Life?",
     "opcions": ["Gordon Freeman", "Alyx Vance", "Barney Calhoun", "Eli Vance"],
-    "respostaCorrecta": 0
+    "respostaCorrecta": "Gordon Freeman",
+    "categoria": "Videojocs"
   },
   {
     "enunciat": "Quin és el nom del protagonista de la saga de videojocs Portal?",
     "opcions": ["Chell", "GLaDOS", "Wheatley", "Cave Johnson"],
-    "respostaCorrecta": 0
+    "respostaCorrecta": "Chell",
+    "categoria": "Videojocs"
+  },
+  {
+    "enunciat": "Quin és el primer Pokémon que apareix a la Pokédex?",
+    "opcions": ["Pikachu", "Charmander", "Bulbasaur", "Squirtle"],
+    "respostaCorrecta": "Bulbasaur",
+    "categoria": "Videojocs"
+  },
+  {
+    "enunciat": "Quin joc va popularitzar el gènere battle royale?",
+    "opcions": ["Fortnite", "PUBG", "Apex Legends", "Call of Duty: Warzone"],
+    "respostaCorrecta": "PUBG",
+    "categoria": "Videojocs"
+  },
+  {
+    "enunciat": "Quina empresa és responsable de la creació de la saga The Elder Scrolls?",
+    "opcions": ["Ubisoft", "Bethesda", "Blizzard", "Square Enix"],
+    "respostaCorrecta": "Bethesda",
+    "categoria": "Videojocs"
+  },
+  {
+    "enunciat": "Com es diu el regne principal en Super Mario?",
+    "opcions": ["Mushroom Kingdom", "Hyrule", "Dream Land", "Bowser's Castle"],
+    "respostaCorrecta": "Mushroom Kingdom",
+    "categoria": "Videojocs"
+  },
+  {
+    "enunciat": "Quin videojoc inclou un 'Battle Bus'?",
+    "opcions": ["Apex Legends", "Fortnite", "PUBG", "Valorant"],
+    "respostaCorrecta": "Fortnite",
+    "categoria": "Videojocs"
+  },
+  {
+    "enunciat": "Quina consola va llançar Nintendo després de la GameCube?",
+    "opcions": ["Wii", "Nintendo 64", "Switch", "DS"],
+    "respostaCorrecta": "Wii",
+    "categoria": "Videojocs"
+  },
+  {
+    "enunciat": "Quin joc de Rockstar Games té lloc a l'oest americà?",
+    "opcions": ["L.A. Noire", "Red Dead Redemption", "GTA V", "Bully"],
+    "respostaCorrecta": "Red Dead Redemption",
+    "categoria": "Videojocs"
+  },
+  {
+    "enunciat": "Quin és el nom complet del protagonista de Grand Theft Auto: Vice City?",
+    "opcions": ["Carl Johnson", "Niko Bellic", "Tommy Vercetti", "Trevor Philips"],
+    "respostaCorrecta": "Tommy Vercetti",
+    "categoria": "Videojocs"
+  },
+  {
+    "enunciat": "Quin personatge de videojoc diu la frase 'It's-a me, Mario!'?",
+    "opcions": ["Luigi", "Mario", "Wario", "Bowser"],
+    "respostaCorrecta": "Mario",
+    "categoria": "Videojocs"
+  },
+  {
+    "enunciat": "Quin joc es considera sovint el primer videojoc de la història?",
+    "opcions": ["Pac-Man", "Tetris", "Pong", "Space Invaders"],
+    "respostaCorrecta": "Pong",
+    "categoria": "Videojocs"
+  },
+  {
+    "enunciat": "Quin és el nom del company inseparable de Banjo a Banjo-Kazooie?",
+    "opcions": ["Tooty", "Kazooie", "Gruntilda", "Mumbo Jumbo"],
+    "respostaCorrecta": "Kazooie",
+    "categoria": "Videojocs"
+  },
+  {
+    "enunciat": "En quin videojoc pots trobar el personatge de Tom Nook?",
+    "opcions": ["The Sims", "Animal Crossing", "Harvest Moon", "Stardew Valley"],
+    "respostaCorrecta": "Animal Crossing",
+    "categoria": "Videojocs"
+  },
+  {
+    "enunciat": "Quina franquícia de videojocs inclou personatges com Ryu, Ken i Chun-Li?",
+    "opcions": ["Tekken", "Street Fighter", "Mortal Kombat", "King of Fighters"],
+    "respostaCorrecta": "Street Fighter",
+    "categoria": "Videojocs"
+  },
+  {
+    "enunciat": "Quin és el nom del primer enemic que apareix a Dark Souls?",
+    "opcions": ["Asylum Demon", "Gwyn", "Artorias", "Ornstein"],
+    "respostaCorrecta": "Asylum Demon",
+    "categoria": "Videojocs"
+  },
+  {
+    "enunciat": "Quina és la franquícia més venuda de Nintendo?",
+    "opcions": ["The Legend of Zelda", "Pokémon", "Super Mario", "Animal Crossing"],
+    "respostaCorrecta": "Super Mario",
+    "categoria": "Videojocs"
+  },
+  {
+    "enunciat": "Com es diu el joc indie on controles un cavaller en un món subterrani ple d'insectes?",
+    "opcions": ["Shovel Knight", "Hollow Knight", "Dead Cells", "Celeste"],
+    "respostaCorrecta": "Hollow Knight",
+    "categoria": "Videojocs"
+  },
+  {
+    "enunciat": "Quina empresa va desenvolupar el joc League of Legends?",
+    "opcions": ["Blizzard", "Valve", "Riot Games", "Ubisoft"],
+    "respostaCorrecta": "Riot Games",
+    "categoria": "Videojocs"
+  },
+  {
+    "enunciat": "Quin és el nom de la ciutat principal en Cyberpunk 2077?",
+    "opcions": ["Neo-Tokyo", "Night City", "Rapture", "Midgar"],
+    "respostaCorrecta": "Night City",
+    "categoria": "Videojocs"
+  },
+  {
+    "enunciat": "Quin joc va ser llançat primer?",
+    "opcions": ["The Last of Us", "BioShock", "Doom", "Half-Life"],
+    "respostaCorrecta": "Doom",
+    "categoria": "Videojocs"
   }
 ]

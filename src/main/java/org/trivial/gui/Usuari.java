@@ -2,38 +2,33 @@ package org.trivial.gui;
 
 import java.io.Serializable;
 
+/**
+ * Classe que representa un usuari amb el seu nom i puntuació total.
+ */
 public class Usuari implements Serializable {
-    private String Nom;
-    private int NumeroJugador;
-    private int PuntuacioTotal;
+    private String nom;
+    private int puntuacioTotal;
 
-    public Usuari(String Nom, int Numero, int PuntuacioTotal) {
-        this.Nom = Nom;
-        this.NumeroJugador=Numero;
-        this.PuntuacioTotal=PuntuacioTotal;
+    // Constructor per defecte
+    public Usuari(String nom, int puntuacioTotal) {
+        this.nom = nom;
+        this.puntuacioTotal = puntuacioTotal;
     }
 
+    // Getters i setters
     public String getNom() {
-        return Nom;
+        return nom;
     }
 
     public void setNom(String nom) {
-        Nom = nom;
-    }
-
-    public int getNumeroJugador() {
-        return NumeroJugador;
-    }
-
-    public void setNumeroJugador(int numeroJugador) {
-        NumeroJugador = numeroJugador;
+        this.nom = nom;
     }
 
     public int getPuntuacioTotal() {
-        return PuntuacioTotal;
+        return puntuacioTotal;
     }
 
     public void setPuntuacioTotal(int puntuacioTotal) {
-        PuntuacioTotal = puntuacioTotal;
+        this.puntuacioTotal = puntuacioTotal;
     }
 }

@@ -1,24 +1,36 @@
 package org.trivial.gui;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class Pregunta {
+/**
+ * Classe que representa una pregunta amb el seu enunciat, opcions, resposta correcta i categoria.
+ */
+public class Pregunta implements Serializable {
     private String enunciat;
     private List<String> opcions;
-    private int respostaCorrecta;
+    private String respostaCorrecta;
+    private String categoria;
 
-    // Default constructor
+    // Constructor per defecte
     public Pregunta() {
     }
 
-    // Parameterized constructor
-    public Pregunta(String enunciat, List<String> opcions, int respostaCorrecta) {
+    /**
+     * Constructor amb paràmetres.
+     * @param enunciat és el enunciat de la pregunta.
+     * @param opcions són les opcions de resposta.
+     * @param respostaCorrecta és la resposta correcta.
+     * @param categoria és la categoria de la pregunta.
+     */
+    public Pregunta(String enunciat, List<String> opcions, String respostaCorrecta, String categoria) {
         this.enunciat = enunciat;
         this.opcions = opcions;
         this.respostaCorrecta = respostaCorrecta;
+        this.categoria = categoria;
     }
 
-    // Getters and setters
+    // Getters i setters
     public String getEnunciat() {
         return enunciat;
     }
@@ -35,11 +47,15 @@ public class Pregunta {
         this.opcions = opcions;
     }
 
-    public int getRespostaCorrecta() {
+    public String getRespostaCorrecta() {
         return respostaCorrecta;
     }
 
-    public void setRespostaCorrecta(int respostaCorrecta) {
+    public void setRespostaCorrecta(String respostaCorrecta) {
         this.respostaCorrecta = respostaCorrecta;
     }
+
+    public String getCategoria() { return categoria; }
+
+    public void setCategoria(String categoria) { this.categoria = categoria; }
 }

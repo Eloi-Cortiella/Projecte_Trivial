@@ -1,7 +1,5 @@
 package org.trivial.gui;
 
-import com.iesebre.usefulcode.DirectAccessFile;
-
 import javax.swing.*;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
@@ -9,24 +7,25 @@ import java.awt.*;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.Objects;
 
+// Classe que crea la finestra del Ranking
 public class FinestraRanking extends JFrame {
     private JPanel panelJ;
     private JLabel titolRanking;
     public JTable tableResultats;
 
     //Model de dades de la taula
-    private static DirectAccessFile<Usuari> dafUs;
+    static DefaultTableModel taulaResultats;
 
-    //Model de dades de la taula
-    public static DefaultTableModel taulaResultats;
+    private Object[][] dadesUsuaris;
 
-    private static Object[][] dadesUsuaris;
-
+    // Constructor de la finestra del Ranking
     public FinestraRanking() throws IOException, ClassNotFoundException {
         //Per poder visualitzar la finestra farem...
+        this.setTitle("Ranking de la Partida");
         this.setContentPane(panelJ);
-        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
         this.setResizable(true);
         this.pack();
         this.setVisible(true);
@@ -38,24 +37,30 @@ public class FinestraRanking extends JFrame {
         this.setMinimumSize(getPreferredSize());
         this.setLocationRelativeTo(null);
 
-        // Instanciem el fitxer
-        dafUs = new DirectAccessFile<>("Usuaris.dat");
-
         // Carregar usuaris
-        dadesUsuaris = new Object[dafUs.size()][3];
-        for (int i = 0; i < dafUs.size(); i++) {
-            Usuari u = dafUs.readObject(i);
-            dadesUsuaris[i][0] = u.getNom();
-            dadesUsuaris[i][1] = u.getPuntuacioTotal();
+        dadesUsuaris = new Object[FinestraJugadors.taulaResultats.getRowCount()][3];
+        for (int i = 0; i < FinestraJugadors.taulaResultats.getRowCount(); i++) {
+            Usuari usuari = new Usuari((String) FinestraJugadors.taulaResultats.getValueAt(i, 0), (int) FinestraJugadors.taulaResultats.getValueAt(i, 1));
+            dadesUsuaris[i][0] = usuari.getNom();
+            dadesUsuaris[i][1] = usuari.getPuntuacioTotal();
         }
 
+        omplirTaula();
+    }
+
+    /**
+     * Mètode per omplir la taula amb els usuaris i les seves puntuacions
+     * @throws IOException Si hi ha algun problema amb l'entrada/sortida
+     * @throws ClassNotFoundException Si no es troba la classe
+     */
+    private void omplirTaula() throws IOException, ClassNotFoundException {
         // Preparar la taula
-        //Anem a establir el model de dades de la taula
+        // Establir el model de dades de la taula
         taulaResultats = new DefaultTableModel(
                 //Dades a mostrar
                 dadesUsuaris,
                 //Definim les columnes de la taula
-                new Object[]{"Nom","Puntuació total"}
+                new Object[]{"Nom","Puntuació de la partida"}
         );
 
         tableResultats.setModel(taulaResultats);
@@ -77,41 +82,41 @@ public class FinestraRanking extends JFrame {
                 return c;
             }
         });
-    }
 
-    public void actualitzarRanking(Usuari u, boolean acertat) throws IOException, ClassNotFoundException {
-        if (acertat) {
-            // Afegir 3 punts al jugador
-            u.setPuntuacioTotal(u.getPuntuacioTotal()+3);
-        }
-        else {
-            // Restar 1 punt al jugador
-            u.setPuntuacioTotal(u.getPuntuacioTotal()-1);
-        }
-
-        // Actualitzar la puntuació del jugador
-        for (int i = 0; i < dafUs.size(); i++) {
-            Usuari usuari = dafUs.readObject(i);
-            if (usuari.getNumeroJugador() == u.getNumeroJugador()) {
-                dadesUsuaris[i][1] = u.getPuntuacioTotal();
-                //dafUs.updateObject(new Usuari(u.getNom(), u.getNumeroJugador(), u.getPuntuacioTotal()), i);
-            }
-        }
-
-        // Ordenar els usuaris per puntuació (de més a menys)
+        // Ordenar la taula de més a menys puntuació
         Arrays.sort(dadesUsuaris, new Comparator<Object[]>() {
             @Override
             public int compare(Object[] o1, Object[] o2) {
                 return (int) o2[1] - (int) o1[1];  // Ordena de més a menys
             }
         });
+    }
 
-        // Actualitzar la taula
-//        for (int i = 0; i < dafUs.size(); i++) {
-//            taulaResultats.setValueAt(dadesUsuaris[i][0], i, 0);
-//            taulaResultats.setValueAt(dadesUsuaris[i][1], i, 1);
-//        }
+    /**
+     * Mètode per actualitzar el ranking
+     * @param u Usuari actual
+     * @param acertat Boolean que indica si ha acertat la pregunta
+     * @throws IOException Si hi ha algun problema amb l'entrada/sortida
+     * @throws ClassNotFoundException Si no es troba la classe
+     */
+    public void actualitzarRanking(Usuari u, boolean acertat) throws IOException, ClassNotFoundException {
+        if (acertat) {
+            // Afegir punts al jugador
+            u.setPuntuacioTotal(u.getPuntuacioTotal()+FinestraJoc.puntuacioPregunta);
+        }
+        else {
+            // Penalitzar al jugador restant-li punts
+            u.setPuntuacioTotal(u.getPuntuacioTotal()-FinestraJoc.penalitzacioTemps);
+        }
 
-        tableResultats.setModel(taulaResultats);
+        // Actualitzar la puntuació del jugador
+        for (int i = 0; i < dadesUsuaris.length; i++) {
+            if (Objects.equals(dadesUsuaris[i][0], u.getNom())) {
+                dadesUsuaris[i][1] = u.getPuntuacioTotal();
+                break;
+            }
+        }
+
+        omplirTaula();
     }
 }
