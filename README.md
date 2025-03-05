@@ -33,19 +33,178 @@ El projecte utilitza Swing per a la interfície gràfica d'usuari i Maven per a 
 
 ## Ús
 
-1. Executa l'aplicació:
+1. pots executar l'aplicació des de l'IDE que s'utilitze. Aqui s'ha usat IntelliJ IDEA Ultimate Edition.
+   
+   També pot executar-ho d'esta forma (No recomanat):
     ```sh
-    mvn exec:java -Dexec.mainClass="org.trivial.gui.FinestraInicial"
+    mvn clean compile exec:java -Dexec.mainClass="org.trivial.gui.FinestraInicial"
     ```
-   També pots executar l'aplicació des de l'IDE que s'utilitze. Aqui s'ha usat IntelliJ IDEA Ultimate Edition.
 
 
 2. Segueix les instruccions en pantalla per afegir jugadors i començar el joc.
+
+## `Exemple d'execució`
+
+### 1. Finestra inicial
+
+Al iniciar l'aplicació es mostra la finestra inicial, on l'usuari pot seleccionar si vol jugar en mode multijugador o en mode d'un sol jugador:
+
+![img.png](src/main/resources/Documentacio/img.png)
+
+---
+
+Aqui veurem com al seleccionar la opció de multijugador, s'afegira baix del botó, un nou label i un nou spinner per a seleccionar el nombre de jugadors.
+
+![img_1.png](src/main/resources/Documentacio/img_1.png)
+
+---
+
+També tenim un botó de regles on al fer click ens apareix un missatge amb les regles bàsiques del joc.
+
+![img_19.png](src/main/resources/Documentacio/img_19.png)
+
+---
+
+Al fer click al botó d'iniciar la partida, sortirà un misstage depenent del mode que hem seleccionat. El primer és el del mode multijugador:
+
+![img_2.png](src/main/resources/Documentacio/img_2.png)
+
+El segon és el del mode d'un sol jugador:
+
+![img_15.png](src/main/resources/Documentacio/img_15.png)
+
+---
+
+### 2. Finestra Jugadors
+
+Seguidament, es mostra la finestra de jugadors, on l'usuari pot configurar tota la partida:
+
+![img_3.png](src/main/resources/Documentacio/img_3.png)
+
+Aqui podrà gestionar els usuaris i jugadors de la partida, i configurar la puntuació necessaria per guanyar, el temps per a respondre, el nombre de preguntes... entre altres.
+
+---
+
+En aquesta apartat és on es gestionen els usuaris, on es poden afegir, eliminar els usuaris seleccionats, i també es pot veure la puntuació total de cada jugador d'anteriors partides.
+
+![img_4.png](src/main/resources/Documentacio/img_4.png)
+
+---
+
+Seguidament passem a l'apartat de la configuració de la partida, on es pot configurar la puntuació necessaria per guanyar, el temps per a respondre, el nombre de preguntes, i també es pot seleccionar les categories de les preguntes.
+
+![img_5.png](src/main/resources/Documentacio/img_5.png)
+
+---
+
+En quant als jugadors que es volen afegir a la partida, sa de fer doble click dret als usuaris de la taula d'usuaris i aquests s'afegiran a la taula de jugadors, amb la puntuació a 0 ja que es la puntuacio de la partida actual:
+
+![img_6.png](src/main/resources/Documentacio/img_6.png)
+
+---
+
+Després de configurar tota la partida, es pot fer click al botó de "Començar" per a començar la partida, i es mostrarà el següent missatge:
+
+![img_20.png](src/main/resources/Documentacio/img_20.png)
+
+---
+
+### 3. Finestra Joc i  Finestra Ranking
+
+Al iniciar la partida, es mostra la finestra de joc, on els jugadors poden respondre les preguntes i veure el seu progrés en una finestra de ranking:
+
+![img_7.png](src/main/resources/Documentacio/img_7.png)
+
+---
+
+Durant la partida, els jugadors han de respondre les preguntes en un temps limitat. Si no responen a temps, es penalitzen amb una pèrdua de punts:
+
+![img_8.png](src/main/resources/Documentacio/img_8.png)
+
+---
+
+Si responent i la resposta era correcta, sortira el següent missatge:
+
+![img_10.png](src/main/resources/Documentacio/img_10.png)
+
+Pero si era incorrecta, sortira el següent missatge:
+
+![img_11.png](src/main/resources/Documentacio/img_11.png)
+
+Al acabar la ronda del jugador sortira el següent missatge i canviara el torn al següent jugador:
+
+![img_9.png](src/main/resources/Documentacio/img_9.png)
+
+### 4. Finestra Final Multi i Finestra Final Single
+
+---
+
+La partida es pot finalitzar de dos formes:
+
+- Si s'agoten les preguntes configurades per a la partida, el qual mostrara el següent missatge:
+
+![img_14.png](src/main/resources/Documentacio/img_14.png)
+
+- Si un jugador arriba a la puntuació necessària per guanyar, el qual mostrara el següent missatge:
+
+![img_21.png](src/main/resources/Documentacio/img_21.png)
+
+En qualsevol de les dos situacions s'obrirà una finestra amb els resultats finals de la partida:
+
+![img_12.png](src/main/resources/Documentacio/img_12.png)
+
+---
+
+Per altra banda, Tenim el mode de joc d'un sol jugador, on solament es mostra la finestra del joc i no hi ha finestra de ranking. El procediment és el mateix que el mode multijugador, però amb diferents missatges.
+
+Per exemple, al iniciar la partida, es mostra el següent missatge:
+
+![img_16.png](src/main/resources/Documentacio/img_16.png)
+
+I al canviar de torn, que seria canviar de ronda, es mostraria el següent missatge:
+
+![img_22.png](src/main/resources/Documentacio/img_22.png)
+
+Per últim, al finalitzar la partida, es mostraria el següent missatge depenent dels punts assolits:
+
+![img_17.png](src/main/resources/Documentacio/img_17.png)
+
+Si el jugador assoleix la puntuació necessària per guanyar, es mostrara el següent missatge:
+
+![img_23.png](src/main/resources/Documentacio/img_23.png)
+
+---
+
+A els dos modes es mostrarà un missatge de comiat i es tancarà l'aplicació al fer click  al botó de "Sortir":
+
+![img_13.png](src/main/resources/Documentacio/img_13.png)
+
+
+### 5. Extra
+
+Al sortir del programa es guarden els fitxers binaris, i si tornem a entrar, es carregaran tots els usuaris que hem creat en anteriors partides, amb les puntuacions totals que han obtingut en les partides que han jugat:
+
+![img_18.png](src/main/resources/Documentacio/img_18.png)
+
+### 6. Problemes i conclusions
+
+He trobat problemes al crear els fitxers binaris, ja que no es guardaven correctament, i això feia que no es carreguessin els usuaris, en anteriors partides, i també les configuracions i les preguntes. Però després de solucionar aquest problema, ha anat correctament.
+
+També he trobat problemes al importar i exportar json a partir dels fitxers binaris perque no ho llegia bé al mètode que ho cridava.
+
+I un altre problema que he tingut ha estat sobre el tema de reutilitzar codi, en concret variables i mètodes, ja siguin statiques i privades, ja que he hagut de canviar moltes coses del codi per a que funcioni correctament, i això ha fet que hagi hagut de canviar moltes coses del codi.
+
+A pesar tot, he après a usar el swing de java, a fer una aplicació amb interfície gràfica, a guardar i carregar fitxers binaris, a importar i exportar json, a reutilitzar codi, a fer classes serializables, i a fer un joc de trivial amb totes les seves funcionalitats.
+Ha estat divertit i interessant a la part d'estressant, pero al final ha valgut la pena.
+
+---
 
 ## Estructura del Projecte
 
 - `src/main/java/org/trivial/gui/`: Conté les classes de la GUI.
 - `src/main/resources/`: Conté fitxers de recursos com fitxers de configuració i dades de preguntes.
+
+---
 
 ## Classes Principals (Finestres)
 
@@ -1011,17 +1170,3 @@ Aquest mètode guarda la configuració de la partida en un fitxer binari (`confi
 La classe utilitza la classe `DirectAccessFile` per a gestionar el fitxer binari. Aquesta classe permet escriure i llegir objectes de manera eficient en un fitxer, cosa que és útil per a guardar i recuperar la configuració de la partida.
 
 ---
-
-### Exemple d'execució
-
-### 1. Finestra inicial
-
-### 2. Finestra Jugadors
-
-### 3. Finestra Joc
-
-### 4. Finestra Ranking
-
-### 5. Finestra Final Multi
-
-### 6. Finestra Final Single

@@ -33,7 +33,7 @@ public class FinestraFinalSingle extends JFrame {
 
         // Si el resultat es 0 o menor a 0
         if (FinestraJoc.u.getPuntuacioTotal() == 0 || FinestraJoc.u.getPuntuacioTotal()  < 0 ) {
-            this.setSize(800, 300);
+            this.setSize(800, 400);
             labelResultatsFinals.setText("Que malo que ets contestant preguntes!\n");
             labelResultatsPunts.setText("Has aconseguit " + FinestraJoc.u.getPuntuacioTotal()  + " punts en aquesta partida");
             ImageIcon icon = new ImageIcon("src/main/resources/loser1.gif");
