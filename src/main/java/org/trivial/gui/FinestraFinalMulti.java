@@ -65,14 +65,11 @@ public class FinestraFinalMulti extends JFrame {
         // Canviar mida dels iconos dels labels
         labelSegonLloc.setSize(100, 100);
 
-        /**
-         * Acció de tancar la finestra i guardar les puntuacions dels usuaris al fitxer de usuaris.dat
-         */
+
         botoSortir.addActionListener(new ActionListener() {
             /**
-             * Invoked when an action occurs.
-             *
-             * @param e the event to be processed
+             * Acció de tancar la finestra i guardar les puntuacions dels usuaris al fitxer de usuaris.dat
+             * @param e Event que es produeix al clicar el botó de sortir
              */
             @Override
             public void actionPerformed(ActionEvent e) {

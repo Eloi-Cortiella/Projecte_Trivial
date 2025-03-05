@@ -131,8 +131,12 @@ public class FinestraJugadors extends JFrame {
         comboBoxCategoria.addItem("Geografia");
         comboBoxCategoria.addItem("Cultura");
 
-        // Accio per a tancar l'aplicacio
+
         this.addWindowListener(new WindowAdapter() {
+            /**
+             * Accio per a tancar l'aplicacio
+             * @param e Event de finestra
+             */
             @Override
             public void windowClosing(WindowEvent e) {
                 super.windowClosing(e);
@@ -145,14 +149,10 @@ public class FinestraJugadors extends JFrame {
             }
         });
 
-        /**
-         * Accions dels botons
-         */
         botoAfegirUsuari.addActionListener(new ActionListener() {
             /**
-             * Invoked when an action occurs.
-             *
-             * @param e the event to be processed
+             * Accions del boto per a afegir un usuari a la llista de jugadors
+             * @param e Event de boto
              */
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -177,13 +177,12 @@ public class FinestraJugadors extends JFrame {
         });
 
         /**
-         * Accions del botó per a iniciar el joc
+         *
          */
         iniciarJoc.addActionListener(new ActionListener() {
             /**
-             * Invoked when an action occurs.
-             *
-             * @param e the event to be processed
+             * Accions del botó per a iniciar el joc amb la configuració seleccionada
+             * @param e Event de boto
              */
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -207,7 +206,7 @@ public class FinestraJugadors extends JFrame {
                         carregarJsonFiltrades();
 
                         setVisible(false);
-                        new FinestraJoc(new FinestraRanking());
+                        new FinestraJoc();
                     } catch (IOException | ClassNotFoundException ex) {
                         throw new RuntimeException(ex);
                     }
@@ -215,8 +214,11 @@ public class FinestraJugadors extends JFrame {
             }
         });
 
-        // Accio amb doble click per a afegir un usuari a la llista de jugadors
         tableUsuaris.addMouseListener(new MouseAdapter() {
+            /**
+             * Accio amb doble click per a afegir un usuari a la llista de jugadors
+             * @param e Event de taula
+             */
             @Override
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
@@ -238,8 +240,11 @@ public class FinestraJugadors extends JFrame {
             }
         });
 
-        // Accio amb doble click per a eliminar un usuari de la llista de jugadors i tornar-lo a la llista d'usuaris
         tableJugadors.addMouseListener(new MouseAdapter() {
+            /**
+             * Accio amb doble click per a eliminar un usuari de la llista de jugadors
+             * @param e Event de taula
+             */
             @Override
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
@@ -271,12 +276,10 @@ public class FinestraJugadors extends JFrame {
         });
 
 
-        // Listener del spinner per a controlar el nombre de preguntes
         spinnerPreguntes.addChangeListener(new ChangeListener() {
             /**
-             * Invoked when the target of the listener has changed its state.
-             *
-             * @param e a ChangeEvent object
+             * Listener del spinner per a controlar el nombre de preguntes
+             * @param e Event de spinner
              */
             @Override
             public void stateChanged(ChangeEvent e) {
@@ -290,12 +293,10 @@ public class FinestraJugadors extends JFrame {
             }
         });
 
-        // Listener del spinner per a controlar la puntuació
         spinnerPuntuacio.addChangeListener(new ChangeListener() {
             /**
-             * Invoked when the target of the listener has changed its state.
-             *
-             * @param e a ChangeEvent object
+             * Listener del spinner per a controlar la puntuació
+             * @param e Event de spinner
              */
             @Override
             public void stateChanged(ChangeEvent e) {
@@ -309,12 +310,10 @@ public class FinestraJugadors extends JFrame {
             }
         });
 
-        // Botó per a eliminar un usuari de la llista de jugadors
         buttonEliminar.addActionListener(new ActionListener() {
             /**
-             * Invoked when an action occurs.
-             *
-             * @param e the event to be processed
+             * Botó per a eliminar un usuari de la llista de jugadors
+             * @param e Event de boto
              */
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -344,12 +343,11 @@ public class FinestraJugadors extends JFrame {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                FinestraJugadors fus=null;
                 try {
+                    FinestraJugadors fus;
                     fus = new FinestraJugadors();
                     fus.setSize(600,400);
                 } catch (ClassNotFoundException | IOException e) {
-                    fus.setVisible(false);
                     JOptionPane.showMessageDialog(null, "Hi ha hagut algun error al programa");
                     System.exit(1);
                 }

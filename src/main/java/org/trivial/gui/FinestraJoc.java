@@ -40,7 +40,7 @@ public class FinestraJoc extends JFrame {
     private ActionListener temporitzador;
 
     // Constructor de la finestra de joc
-    public FinestraJoc(FinestraRanking finestraRanking) throws IOException, ClassNotFoundException {
+    public FinestraJoc() throws IOException, ClassNotFoundException {
         this.setTitle("Trivial");
         this.setContentPane(pantallaJoc);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -61,7 +61,7 @@ public class FinestraJoc extends JFrame {
         numPreguntes = configuracio.getNumPreguntes();
 
         // Finestra de ranking
-        this.finestraRanking = finestraRanking;
+        this.finestraRanking = new FinestraRanking();
 
         // Si es sol un jugador, no mostrar la finestra de ranking
         if (FinestraInicial.numJugadors == 1) {
@@ -101,8 +101,12 @@ public class FinestraJoc extends JFrame {
         progressBarTemps.setValue(tempsRestant);
         progressBarTemps.setString(tempsRestant+" segons");
 
-        // Timer per a la barra de progrés
         temporitzador = new ActionListener() {
+            /**
+             * Timer per a la barra de progrés
+             *
+             * @param e l'event a processar del timer
+             */
             @Override
             public void actionPerformed(ActionEvent e) {
                 progressBarTemps.setValue(progressBarTemps.getValue() - 1);
@@ -124,12 +128,11 @@ public class FinestraJoc extends JFrame {
         t = new Timer(1000, temporitzador);
         t.start();
 
-        // Boto per a confirmar la resposta escollida
+
         botoConfirmar.addActionListener(new ActionListener() {
             /**
-             * Invoked when an action occurs.
-             *
-             * @param e the event to be processed
+             *  Boto per a confirmar la resposta escollida
+             * @param e l'event a processar del boto
              */
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -166,8 +169,11 @@ public class FinestraJoc extends JFrame {
             }
         });
 
-        // Boto per a tancar la finestra
         this.addWindowListener(new WindowAdapter() {
+            /**
+             * Event per a tancar la finestra
+             * @param e l'event a processar de la finestra
+             */
             @Override
             public void windowClosing(WindowEvent e) {
                 super.windowClosing(e);
@@ -330,8 +336,7 @@ public class FinestraJoc extends JFrame {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
             try {
-                FinestraRanking finestraRanking = new FinestraRanking();
-                FinestraJoc finestraJoc = new FinestraJoc(finestraRanking);
+                FinestraJoc finestraJoc = new FinestraJoc();
             } catch (ClassNotFoundException | IOException e) {
                 JOptionPane.showMessageDialog(null, "Hi ha hagut algun error al programa");
                 System.exit(1);

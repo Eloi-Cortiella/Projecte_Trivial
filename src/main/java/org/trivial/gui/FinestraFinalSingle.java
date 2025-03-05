@@ -56,14 +56,10 @@ public class FinestraFinalSingle extends JFrame {
             labelImatgeFinal.setIcon(icon);
         }
 
-        /**
-         * Accions del boto de sortir
-         */
         botoSortir.addActionListener(new ActionListener() {
             /**
-             * Invoked when an action occurs.
-             *
-             * @param e the event to be processed
+             * Accions del boto de sortir
+             * @param e Event que es genera al clicar el boto
              */
             @Override
             public void actionPerformed(ActionEvent e) {

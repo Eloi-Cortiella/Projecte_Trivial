@@ -119,4 +119,16 @@ public class FinestraRanking extends JFrame {
 
         omplirTaula();
     }
+
+    // Mètode main de la finestra del Ranking
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> {
+            try {
+                FinestraRanking finestraRanking = new FinestraRanking();
+            } catch (ClassNotFoundException | IOException e) {
+                JOptionPane.showMessageDialog(null, "Hi ha hagut algun error al programa");
+                System.exit(1);
+            }
+        });
+    }
 }

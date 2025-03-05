@@ -86,14 +86,10 @@ public class FinestraInicial extends JFrame {
             }
         });
 
-        /**
-         * Acció per a mostrar un tutorial de com jugar al joc
-         */
         botoTutorial.addActionListener(new ActionListener() {
             /**
-             * Invoked when an action occurs.
-             *
-             * @param e the event to be processed
+             * Acció per a mostrar un tutorial de com jugar al joc
+             * @param e l'event a processar
              */
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -103,10 +99,12 @@ public class FinestraInicial extends JFrame {
             }
         });
 
-        /**
-         * Acció per a controlar el nombre de jugadors seleccionat en el spinner
-         */
+
         spinnerJugadors.addChangeListener(new ChangeListener() {
+            /**
+             * Acció per a controlar el nombre de jugadors seleccionat en el spinner
+             * @param e l'event a processar
+             */
             @Override
             public void stateChanged(ChangeEvent e) {
                 if ((int) spinnerJugadors.getValue() > 4) {
@@ -119,14 +117,10 @@ public class FinestraInicial extends JFrame {
             }
         });
 
-        /**
-         * Accions dels radio buttons de la finestra inicial
-         */
         multijugador2A4RadioButton.addActionListener(new ActionListener() {
             /**
-             * Invoked when an action occurs.
-             *
-             * @param e the event to be processed
+             * Accions dels radio buttons de la finestra inicial
+             * @param e l'event a processar
              */
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -138,14 +132,12 @@ public class FinestraInicial extends JFrame {
             }
         });
 
-        /**
-         * Accions dels radio buttons de la finestra inicial
-         */
+
         unSolJugadorRadioButton.addActionListener(new ActionListener() {
             /**
-             * Invoked when an action occurs.
+             * Accions dels radio buttons de la finestra inicial
              *
-             * @param e the event to be processed
+             * @param e l'event a processar
              */
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -162,12 +154,10 @@ public class FinestraInicial extends JFrame {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                FinestraInicial f=null;
                 try {
-                    f = new FinestraInicial();
+                    FinestraInicial f = new FinestraInicial();
                     f.setSize(400,200);
                 } catch (ClassNotFoundException | IOException e) {
-                    f.setVisible(false);
                     JOptionPane.showMessageDialog(null, "Hi ha hagut algun error al programa");
                     System.exit(1);
                 }
